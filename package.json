@@ -3,12 +3,15 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://leshareva.github.io/ready-mail/",
   "scripts": {
     "start": "node --inspect=5858 -r ts-node/register src/index.ts",
     "dev": "./node_modules/nodemon/bin/nodemon.js",
     "test": "jest",
     "test:watch": "jest --watch",
-    "build": "tsc --watch"
+    "build": "tsc",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "engines": {
     "node": "11.4.0"
