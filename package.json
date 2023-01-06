@@ -42,7 +42,7 @@
     "encoding": "^0.1.12",
     "express": "~4.16.0",
     "http-errors": "~1.6.2",
-    "jest": "^23.6.0",
+    "jest": "^29.3.1",
     "mailchimp-api-v3": "^1.13.1",
     "mustache-express": "^1.2.8",
     "nodemon": "^1.18.9",
